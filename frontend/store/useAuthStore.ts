@@ -4,7 +4,7 @@ import { io, Socket } from "socket.io-client";
 import { create } from "zustand";
 
 const BASE_URL =
-  import.meta.env.MODE === "development" ? "http://localhost:8888" : "/";
+  import.meta.env.MODE === "development" ? "http://localhost:8888" : "/v1/api";
 // const BASE_URL = "https://nodejs-sapo.onrender.com";
 
 type State = {
