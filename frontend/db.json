@@ -1,0 +1,418 @@
+{
+  "users": [
+    {
+      "email": "ann@imail.edu.vn",
+      "password": "$2a$10$.q/O5tKWT8.Cb1WHDitEM.MpeAwjc/nO2zdus6fDESzQioIcJeN92",
+      "confirmPassword": "123123!",
+      "id": 1
+    },
+    {
+      "email": "sdasdsa@gmail.com",
+      "password": "$2a$10$BtLEp9h4sSOTApeo0NAfM.6HwM5xJOOh8hgPgdeCzU1dewJKFraFW",
+      "confirmPassword": "123123.",
+      "id": 2
+    },
+    {
+      "email": "ngthanhan0507@gmail.com",
+      "password": "$2a$10$n0p3R5RrynnuGPB1eEPWPuc/qCur/7duSBXv2qTsegYT/IQFF211i",
+      "confirmPassword": "Ngthanhan57.",
+      "id": 3
+    },
+    {
+      "email": "ngthanhan@gmail.com",
+      "password": "$2a$10$H1NK8d2zblhJWiTjtGM0q.oQuu7HIw3kxW3g88mqfL3vRsX/qfQyu",
+      "confirmPassword": "123123.",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "title": "Sản phẩm C",
+      "price": 50000,
+      "sku": "san-pham-c",
+      "sort_title": "SPC",
+      "storage": 9058
+    },
+    {
+      "id": 4,
+      "title": "Sản phẩm D",
+      "price": 1250000,
+      "sku": "san-pham-d",
+      "sort_title": "SPD",
+      "storage": 213
+    },
+    {
+      "id": 5,
+      "title": "Sản phẩm E",
+      "price": 70000,
+      "sku": "san-pham-e",
+      "sort_title": "SPE",
+      "storage": 520
+    },
+    {
+      "id": 6,
+      "title": "Sản phẩm F",
+      "price": 120000,
+      "sku": "san-pham-f",
+      "sort_title": "SPF",
+      "storage": 1000
+    },
+    {
+      "id": 7,
+      "title": "Sản phẩm G",
+      "price": 35000,
+      "sku": "san-pham-g",
+      "sort_title": "SPG",
+      "storage": 150
+    },
+    {
+      "id": 8,
+      "title": "Sản phẩm H",
+      "price": 250000,
+      "sku": "sản-phẩm-h",
+      "sort_title": "SPH",
+      "storage": 450
+    },
+    {
+      "id": 9,
+      "title": "Sản phẩm I",
+      "price": 300000,
+      "sku": "san-pham-i",
+      "sort_title": "SPI",
+      "storage": 750
+    },
+    {
+      "id": 10,
+      "title": "Sản phẩm J",
+      "price": 1000000,
+      "sku": "san-pham-j",
+      "sort_title": "SPJ",
+      "storage": 200
+    },
+    {
+      "id": 11,
+      "title": "Sản phẩm K",
+      "price": 80000,
+      "sku": "san-pham-k",
+      "sort_title": "SPK",
+      "storage": 600
+    },
+    {
+      "id": 12,
+      "title": "Sản phẩm L",
+      "price": 120000,
+      "sku": "san-pham-l",
+      "sort_title": "SPL",
+      "storage": 800
+    },
+    {
+      "id": 13,
+      "title": "Sản phẩm M",
+      "price": 220000,
+      "sku": "san-pham-m",
+      "sort_title": "SPM",
+      "storage": 320
+    },
+    {
+      "id": 14,
+      "title": "Sản phẩm N",
+      "price": 400000,
+      "sku": "san-pham-n",
+      "sort_title": "SPN",
+      "storage": 600
+    },
+    {
+      "id": 15,
+      "title": "Sản phẩm O",
+      "price": 150000,
+      "sku": "san-pham-o",
+      "sort_title": "SPO",
+      "storage": 900
+    },
+    {
+      "id": 16,
+      "title": "Sản phẩm P",
+      "price": 60000,
+      "sku": "san-pham-p",
+      "sort_title": "SPP",
+      "storage": 400
+    },
+    {
+      "id": 17,
+      "title": "Sản phẩm Q",
+      "price": 100000,
+      "sku": "san-pham-q",
+      "sort_title": "SPQ",
+      "storage": 500
+    },
+    {
+      "id": 18,
+      "title": "Sản phẩm R",
+      "price": 250000,
+      "sku": "san-pham-r",
+      "sort_title": "SPR",
+      "storage": 650
+    },
+    {
+      "id": 19,
+      "title": "Sản phẩm S",
+      "price": 30000,
+      "sku": "san-pham-s",
+      "sort_title": "SPS",
+      "storage": 850
+    },
+    {
+      "id": 20,
+      "title": "Sản phẩm T",
+      "price": 50000,
+      "sku": "san-pham-t",
+      "sort_title": "SPT",
+      "storage": 1200
+    },
+    {
+      "id": 21,
+      "title": "Sản phẩm U",
+      "price": 40000,
+      "sku": "san-pham-u",
+      "sort_title": "SPU",
+      "storage": 750
+    },
+    {
+      "id": 22,
+      "title": "Sản phẩm V",
+      "price": 220000,
+      "sku": "san-pham-v",
+      "sort_title": "SPV",
+      "storage": 580
+    },
+    {
+      "id": 23,
+      "title": "Sản phẩm W",
+      "price": 30000,
+      "sku": "san-pham-w",
+      "sort_title": "SPW",
+      "storage": 1000
+    },
+    {
+      "id": 24,
+      "title": "Sản phẩm X",
+      "price": 700000,
+      "sku": "san-pham-x",
+      "sort_title": "SPX",
+      "storage": 400
+    },
+    {
+      "id": 25,
+      "title": "Sản phẩm Y",
+      "price": 550000,
+      "sku": "san-pham-y",
+      "sort_title": "SPY",
+      "storage": 200
+    },
+    {
+      "id": 26,
+      "title": "Sản phẩm Z",
+      "price": 80000,
+      "sku": "san-pham-z",
+      "sort_title": "SPZ",
+      "storage": 300
+    },
+    {
+      "id": 27,
+      "title": "Sản phẩm AA",
+      "price": 220000,
+      "sku": "san-pham-aa",
+      "sort_title": "SPA",
+      "storage": 350
+    },
+    {
+      "id": 28,
+      "title": "Sản phẩm AB",
+      "price": 950000,
+      "sku": "san-pham-ab",
+      "sort_title": "SPAB",
+      "storage": 800
+    },
+    {
+      "id": 29,
+      "title": "Sản phẩm AC",
+      "price": 850000,
+      "sku": "san-pham-ac",
+      "sort_title": "SPAC",
+      "storage": 1000
+    },
+    {
+      "id": 30,
+      "title": "Sản phẩm AD",
+      "price": 700000,
+      "sku": "san-pham-ad",
+      "sort_title": "SPAD",
+      "storage": 550
+    },
+    {
+      "id": 32,
+      "title": "Sản phẩm AF",
+      "price": 50000,
+      "sku": "san-pham-af",
+      "sort_title": "SPAF",
+      "storage": 200
+    },
+    {
+      "id": 33,
+      "title": "Sản phẩm AG",
+      "price": 350000,
+      "sku": "san-pham-ag",
+      "sort_title": "SPAG",
+      "storage": 300
+    },
+    {
+      "id": 34,
+      "title": "Sản phẩm AH",
+      "price": 150000,
+      "sku": "san-pham-ah",
+      "sort_title": "SPAH",
+      "storage": 150
+    },
+    {
+      "id": 35,
+      "title": "Sản phẩm AI",
+      "price": 950000,
+      "sku": "san-pham-ai",
+      "sort_title": "SPAI",
+      "storage": 800
+    },
+    {
+      "id": 36,
+      "title": "Sản phẩm AJ",
+      "price": 125000,
+      "sku": "san-pham-aj",
+      "sort_title": "SPA",
+      "storage": 1200
+    },
+    {
+      "id": 38,
+      "title": "Sản phẩm AL",
+      "price": 240000,
+      "sku": "san-pham-al",
+      "sort_title": "SPAL",
+      "storage": 500
+    },
+    {
+      "id": 39,
+      "title": "Sản phẩm AM",
+      "price": 320000,
+      "sku": "san-pham-am",
+      "sort_title": "SPAM",
+      "storage": 600
+    },
+    {
+      "id": 40,
+      "title": "Sản phẩm AN",
+      "price": 600000,
+      "sku": "san-pham-an",
+      "sort_title": "SPAN",
+      "storage": 700
+    },
+    {
+      "id": 41,
+      "title": "Sản phẩm AO",
+      "price": 500000,
+      "sku": "san-pham-ao",
+      "sort_title": "SPAO",
+      "storage": 400
+    },
+    {
+      "id": 42,
+      "title": "Sản phẩm AP",
+      "price": 450000,
+      "sku": "san-pham-ap",
+      "sort_title": "SPAP",
+      "storage": 500
+    },
+    {
+      "id": 43,
+      "title": "Sản phẩm AQ",
+      "price": 200000,
+      "sku": "san-pham-aq",
+      "sort_title": "SPAQ",
+      "storage": 600
+    },
+    {
+      "id": 44,
+      "title": "Sản phẩm AR",
+      "price": 300000,
+      "sku": "san-pham-ar",
+      "sort_title": "SPAR",
+      "storage": 700
+    },
+    {
+      "id": 45,
+      "title": "Sản phẩm AS",
+      "price": 250000,
+      "sku": "san-pham-as",
+      "sort_title": "SPAS",
+      "storage": 800
+    },
+    {
+      "id": 46,
+      "title": "Sản phẩm AT",
+      "price": 120000,
+      "sku": "san-pham-at",
+      "sort_title": "SPAT",
+      "storage": 900
+    },
+    {
+      "id": 47,
+      "title": "Sản phẩm AU",
+      "price": 150000,
+      "sku": "san-pham-au",
+      "sort_title": "SPAU",
+      "storage": 1000
+    },
+    {
+      "title": "Ipad Pro",
+      "price": 50000,
+      "sort_title": "IPR",
+      "storage": 321,
+      "sku": "ipad-pro",
+      "id": 48
+    },
+    {
+      "title": "Sản phẩm ZZ",
+      "price": 400000,
+      "sort_title": "SPZ",
+      "storage": 689,
+      "sku": "sản-phẩm-zz",
+      "id": 49
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "tel": "0332013331"
+    },
+    {
+      "id": "2",
+      "name": "Nguyễn Văn C ",
+      "tel": "0332013233"
+    },
+    {
+      "id": "3",
+      "name": "Nguyễn Văn D",
+      "tel": "0332013933"
+    },
+    {
+      "id": "4",
+      "name": "Nguyễn Văn E",
+      "tel": "0334556789"
+    },
+    {
+      "name": "Nguyễn Thành An",
+      "tel": "0332014757",
+      "id": "CCpj9sd"
+    }
+  ],
+  "orders": []
+}

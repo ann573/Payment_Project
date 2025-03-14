@@ -1,0 +1,33 @@
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px; /* Chiều cao thanh cuộn ngang */
+  cursor: pointer;
+}
+
+/* Tùy chỉnh tay cầm của thanh cuộn ngang */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Màu sắc tay cầm thanh cuộn */
+  border-radius: 10px; /* Làm tròn tay cầm */
+}
+
+/* Tùy chỉnh nền của thanh cuộn ngang */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Màu nền của thanh cuộn */
+  border-radius: 10px; /* Làm tròn góc nền thanh cuộn */
+}
+
+/* Điều chỉnh màu sắc khi hover trên tay cầm */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Màu sắc khi hover trên tay cầm */
+}
+
+/* Phần tử có background trắng khi được chọn */
+.selected {
+  background-color: white;
+  border: 1px solid #ccc; /* Thêm border cho phần tử được chọn */
+}
+
+/* Các phần tử còn lại chỉ có border */
+.non-selected {
+
+  color: white;
+}
