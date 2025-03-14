@@ -3,7 +3,7 @@ import axios from "axios";
 import Cookies from "js-cookie";
 
 export const instance = axios.create({
-  baseURL: import.meta.env.MODE === "development" ? API_ENDPOINT : "/api",
+  baseURL: import.meta.env.MODE === "development" ? API_ENDPOINT : "/",
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
