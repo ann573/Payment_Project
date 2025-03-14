@@ -2,7 +2,7 @@ import mongoose, { Schema } from "mongoose";
 import {
   changeScoreAndAddOrder,
   editIsUsedScore,
-} from "../services/CustomerService.js";
+} from "../services/customerService.js";
 import { decreaseQuantity } from "./../controllers/variantControllers.js";
 
 const productInOrderSchema = new Schema(

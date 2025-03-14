@@ -5,10 +5,9 @@ import {
   fetchCustomerById,
   editCustomer,
   findCustomer,
-  removeCustomer
-} from "../services/CustomerService.js";
+  removeCustomer,
+} from "../services/customerService.js";
 import { errorResponse, successResponse } from "./../utils/returnResponse.js";
-
 
 export const getAllCustomer = async (req, res) => {
   try {
@@ -61,7 +60,6 @@ export const updateCustomer = async (req, res) => {
   }
 };
 
-
 export const searchCustomer = async (req, res) => {
   try {
     const { tel } = req.query;
@@ -75,21 +73,21 @@ export const searchCustomer = async (req, res) => {
 
 export const totalCustomer = async (req, res) => {
   try {
-    const data = await Customer.countDocuments()
+    const data = await Customer.countDocuments();
     return successResponse(res, 200, data);
   } catch (error) {
     console.log(error);
     errorResponse(res, 500);
   }
-}
+};
 
 export const deleteCustomerById = async (req, res) => {
-  const {id} = req.params
+  const { id } = req.params;
   try {
-    const data = await removeCustomer(id)
+    const data = await removeCustomer(id);
     return successResponse(res, 200, data);
   } catch (error) {
     console.log(error);
     errorResponse(res, 500);
   }
-}
+};
